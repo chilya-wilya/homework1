@@ -10,37 +10,42 @@
     font-family: 'Roboto', sans-serif;
     font-weight: 700;
     padding: 15px 100px;
-    height: 10vh;
+}
+
+.nav-wrapper {
+    display: flex;
+    align-items: center;
 }
 
 .nav-list {
-    display: inline-block;
-    margin-top: 20px;
+    display: flex;
+    list-style-type: none;
 }
 
 .nav-list > li {
-    display: inline-block;
-    margin-right: 20px;
+    margin-right: 28px;
+    cursor: pointer;
 }
 
 .logo {
-    display: inline-block;
-    margin: 0 380px 0 380px;
+    margin-left: 300px;
+    cursor: pointer;
 }
 
 .links {
-    display: inline-block;
-    margin-left: 150px;
-    margin-top: 20px;
+    margin-left: auto;
 }
 
 .links img {
-    margin-right: 20px;
+    margin-right: 30px;
+    cursor: pointer;
 }
 
 .main-page {
-    height: 90vh;
+    height: calc(100vh - 58px);
     background-color: #F0EFEB;
+    display: flex;
+    padding-left: 190px;
 }
 
 .guides {
@@ -51,16 +56,14 @@
     font-family: 'Roboto', sans-serif;
     font-weight: 700;
     font-size: 60px;
-    padding-bottom: 50px;
-    padding-left: 188px;
+    margin-bottom: 50px;
 }
 
 .text {
     font-family: 'Roboto', sans-serif;
     font-weight: 400;
     font-size: 24px;
-    padding-left: 188px;
-    padding-bottom: 35px;
+    margin-bottom: 35px;
 }
 
 .button {
@@ -73,14 +76,18 @@
     font-weight: 400;
     font-size: 17px;
     border: none;
-    margin-left: 188px;
+    cursor: pointer;
 }
 
 .main-image {
-    padding-left: 150px;
-    margin-top: 100px;
+    height: 521px;
+    width: 599px;
+    align-self: center;
 }
 
 .main-content-wrapper {
-    display: inline-block;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-right: 20%;
 }
