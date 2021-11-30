@@ -55,14 +55,14 @@
     margin-right: 20%;
 }
 
-.title {
+.main-title {
     font-family: 'Roboto', sans-serif;
     font-weight: 700;
     font-size: 60px;
     margin-bottom: 50px;
 }
 
-.text {
+.main-text {
     font-family: 'Roboto', sans-serif;
     font-weight: 400;
     font-size: 24px;
@@ -89,5 +89,237 @@
 }
 
 .guides {
-    height: 100vh;
+    height: auto;
+}
+
+.title {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 42.19px;
+}
+
+.guides-title {
+    text-align: center;
+    margin: 60px 0 27px 0;
+}
+
+.guides-text-wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.guides-content {
+    width: 635px;
+    margin: 27px 0 47px 0;
+}
+
+.guides-content:last-child {
+    margin: 0 0 22px 0;
+}
+
+.guides-text {
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 23.44px;
+}
+
+.guides-sell-wrapper {
+    display: flex;
+    justify-content: center;
+    padding: 50px 0 250px 0;
+}
+
+.best-sell {
+    display: flex;
+    padding: 0 30px;
+    flex-direction: column;
+    text-align: center;
+}
+
+.best-sell-content {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 700;
+    font-size: 17px;
+    line-height: 19.92px;
+    margin: 27px 0 0 0;
+}
+
+.best-sell-content-price {
+    font-family: 'Roboto', sans-serif;
+    font-size: 17px;
+    font-weight: 400;
+    line-height: 20px;
+    margin-top: 20px;
+}
+
+.best-sell-content-add {
+    margin-top: 10px;
+}
+
+.add-button {
+    color: #000;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 700;
+    font-size: 17px;
+    line-height: 19.92px;
+}
+
+.book-one {
+    background-color: #CCCCCC4D;
+    height: 75vh;
+}
+
+.book-wrapper {
+    display: flex;
+    justify-content: center;
+    padding: 100px 0;
+}
+
+.book-about {
+    display: flex;
+    flex-direction: column;
+    align-self: center;
+    width: 30%;
+}
+
+.book-img {
+    margin: 0 50px 0 50px;
+}
+
+.book-about-name {
+    margin-bottom: 30px;
+}
+
+.book-about-text {
+    font-family: 'Roboto', sans-serif;
+    font-size: 36px;
+    font-weight: 400;
+    line-height: 42px;
+    margin-bottom: 40px;
+
+}
+
+.book-two {
+    background-color: #CCCCCC99;
+    height: 75vh;
+}
+
+.about2 {
+    text-align: right;
+}
+
+.about1 {
+    text-align: left;
+}
+
+.book-three {
+    background-color: #CCCCCC4D;
+    height: 75vh;
+}
+
+.features {
+    height: 1300px;
+}
+
+.features-wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.features-title-content {
+    font-family: 'Roboto', sans-serif;
+    font-size: 36px;
+    font-weight: 400;
+    line-height: 42px;
+    text-align: center;
+}
+
+.features-table {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    width: 70%;
+}
+
+.features-title {
+    margin: 190px 0 70px 0;
+}
+
+.features-list {
+    width: 20%;
+    text-align: center;
+    margin: 0 80px 200px;
+}
+
+.features-img {
+    margin-bottom: 26px;
+}
+
+.feature-text {
+    font-family: 'Roboto', sans-serif;
+    font-size: 30px;
+    font-weight: 700;
+    line-height: 35px;
+    text-align: center;
+}
+
+.features-title2 {
+    margin-bottom: 105px;
+}
+
+.features-title-content2 {
+    font-family: 'Roboto', sans-serif;
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 42px;
+    text-align: center;
+}
+
+.portraits-wrapper {
+    display: flex;
+    justify-content: center;
+    padding: 50px 0 250px 0;
+    height: 200px;
+}
+
+.portrait-column {
+    display: flex;
+    padding: 0 85px;
+    flex-direction: column;
+    text-align: center;
+}
+
+.portrait-content {
+    width: 250px;
+    font-family: 'Roboto', sans-serif;
+    margin-top: 35px;
+    text-align: center;
+}
+
+.portrait-quote {
+    font-size: 22px;
+    font-weight: 700;
+    line-height: 26px;
+    margin-bottom: 40px;
+}
+
+.portrait-name {
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 23px;
+    margin-bottom: 45px;
+}
+
+.portraits {
+    z-index: 100;
+}
+
+.background-color {
+    height: 450px;
+    background-color: #F0F0F0;
 }
