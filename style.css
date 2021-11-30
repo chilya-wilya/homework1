@@ -48,8 +48,11 @@
     padding-left: 190px;
 }
 
-.guides {
-    height: 100vh;
+.main-content-wrapper {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-right: 20%;
 }
 
 .title {
@@ -85,9 +88,6 @@
     align-self: center;
 }
 
-.main-content-wrapper {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    margin-right: 20%;
+.guides {
+    height: 100vh;
 }
