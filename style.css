@@ -364,6 +364,7 @@
     height: 40px;
     text-align: left;
     margin: 0 27px;
+    padding-left: 7px;
 }
 
 .form-input {
@@ -371,6 +372,7 @@
     height: 40px;
     margin-top: 20px;
     margin-bottom: 16px;
+    padding-left: 7px;
 }
 
 .footer {
