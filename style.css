@@ -375,11 +375,57 @@
 
 .footer {
     background-color: #020202;
-    height: 500px;
+    height: 50%;
 }
 
 .footer-content, .footer-copyright {
     color: #FFF;
     font-family: 'Roboto', sans-serif;
+    font-size: 14px;
     font-weight: 400;
+}
+
+.footer-wrapper {
+    display: flex;
+    flex-direction: column;
+}
+
+.footer-content {
+    display: flex;
+    flex: 1 1 auto;
+    justify-content: space-around;
+    margin: 50px 200px 60px 170px;
+}
+
+.footer-logo {
+    margin-bottom: 45px;
+}
+
+.footer-links img {
+    padding-right: 23px;
+}
+
+.footer-images {
+    display: flex;
+    flex-direction: column;
+    flex-grow: 0.8;
+}
+
+.footer-title {
+    margin-bottom: 35px;
+    text-transform: uppercase;
+}
+
+.footer-about {
+    margin-right: 70px;
+}
+
+.footer-list li {
+    padding: 12px 0;
+    list-style-type: none;
+}
+
+.footer-copyright {
+    margin-bottom: 17px;
+    align-self: center;
 }
